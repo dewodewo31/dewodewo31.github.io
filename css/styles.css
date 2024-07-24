@@ -1,0 +1,25 @@
+.parallax {
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+.text-shadow {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 5px solid white; /* Opsional: tambahkan border putih di sekitar gambar */
+}
